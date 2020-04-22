@@ -1,0 +1,159 @@
+body,html{ background-color:#fff; font-size:12px; color:#333333; font-family:"微软雅黑", Microsoft YaHei;}
+
+a{ font-size:12px; color:#333333; font-family:"微软雅黑", Microsoft YaHei;}
+a:hover{ color:#0f0f63;}
+
+/*轮播*/
+.banner{ width:100%; overflow: hidden; position: relative;}
+.rslides { position: relative; overflow: hidden; width: 100%; padding: 0; margin: 0; }
+.rslides li { height:414px;-webkit-backface-visibility: hidden; position: absolute; display: none; width: 100%; left: 0; top: 0; }
+.rslides li:first-child { position: relative; display: block; float: left; }
+.rslides .img { display: block; height: auto; float: left; width: 100%; border: 0; }
+.slide_container { position: relative; float: left; width: 100%; }
+.slide { position: relative; list-style: none; overflow: hidden; width: 100%; padding: 0; margin: 0; }
+.slide li { position: absolute; width: 100%; left: 0; top: 0; }
+.slide .img { display: block; position: relative; z-index: 1; height: auto; width: 100%; border: 0; }
+.slide .caption {  width:100%; position: absolute; left:0; top:0; z-index: 1; overflow: hidden;}
+.slide .caption .wz_caption{ width:1100px; margin:0 auto; overflow: hidden; position: relative;}
+.slide .caption .wz_caption div { display: block; width:295px; padding:25px; position: absolute; z-index: 2; text-shadow: none; color: #fff; /*background: #000; background: rgba(0,0,0, .5);*/ background: url(../images/con_bg.png) repeat;right: 0; bottom: 15%; overflow: hidden;}
+.slide .caption .wz_caption div h3 a{ font-size: 2.0em;  color:#fff; line-height:1.35em; font-weight: normal; }
+.slide .caption .wz_caption div p{ font-size: 1.4em; line-height: 1.28em; color:#fff; margin-top: 20px;}
+.slide_nav { display:none; position: absolute; top: 45%; left: 10px; opacity: 0.7; z-index: 3; text-indent: -9999px; overflow: hidden; height: 44px; width: 20px; background:url(../images/lf.png) no-repeat left top; margin-top: -22px; }
+.slide_nav:active { opacity: 1.0;}
+.slide_nav.next { left: 50%; margin-left:550px;background:url(../images/rt.png) no-repeat left top; right: 10px; }
+.slide .caption .wz_caption em{ position: absolute; right:0; bottom:0; height: 40px; text-align: right; font-size: 1.5em; line-height: 2.67em; color:#fff;text-shadow:3px 3px 3px #000; display: none;}
+.prev{ left:50%; margin-left:-550px;}
+
+.icon_banner{ width:100%; height: 104px; position: absolute; left:0; bottom:10px; z-index: 20;}
+.icon_banner ul{ width:1100px; margin:0 auto; overflow: hidden;}
+.icon_banner ul li{ width:10px; float:left; margin-left: 6px;}
+.icon_banner ul li a{ display: block; width:10px; height: 10px; background-color:#fff;}
+.icon_banner ul li a.icon{}
+.icon_banner ul li a.icon:hover{}
+
+.rslides li .banner_img{ width:66.6667%; height:414px; float:left; background-position: right top;}
+.rslides li .banner_img a{ display:block; height:100%;}
+.rslides li .banner_tit{ width:33.3333%; height:414px; float:left; background:#19559c;}
+.rslides li .banner_tit span{ color:#fff; font-size:34px; display:block; height:210px; margin:140px 0px 0px 40px; width:223px;}
+
+
+.slide_tabs{ width:73px; position:absolute; z-index:999; bottom:20px; left:50%; margin-left:480px;}
+.slide_tabs li{ width:10px; height:10px; background-color:#fff; float:left; margin-right:8px;}
+.slide_tabs li a{ width:10px; height:10px; font-size:0px; display:block;}
+.slide_tabs li.slide_here{ background-color:#e50012;}
+/*轮播*/
+
+
+.wraq_content{ width:100%; overflow: hidden;}
+.wraq_con01{ width:100%;}
+
+/*新闻开始*/
+.con01a{ width:1120px; margin:0 auto;  overflow: hidden;}
+.til_con01a{ height:50px; line-height:50px; padding:10px 10px 10px}
+.til_con01a h2{ color:#08376f; font-size:18px; font-weight:bolder;}
+
+.more{ float:right; display:block;}
+.more a{ color:#9e9e9e;}
+
+.box_con01a ul li{ width:33.3%; float:left;}
+.box_con01a ul li .box_con01a_img{ height:149px; margin:0px 10px; border-bottom:3px solid #c4820e;}
+.box_con01a_date{ background:url(../images/date.jpg) no-repeat left center; color:#848484; margin:0px 10px; height:35px; line-height:35px; padding-left:20px;}
+.box_con01a_link a{ font-size:14px; color:#222; line-height:20px; margin:0px 10px; display:block; margin-bottom:15px;}
+/*新闻结束*/
+
+.g-bd2{}
+.g-sd2{position:relative;float:right;width:355px;margin-left:-355px}
+.g-mn2{float:left;width:100%;}
+.g-mn2c{margin-right:380px; overflow:hidden;}
+
+.articleList01{ margin-right:10px;}
+.til_con01b{ height:50px; line-height:50px; padding:10px 0px 10px}
+.til_con01b h2{ color:#08376f; font-size:18px; font-weight:bolder;}
+.mode01 .nest04 .lf{width:360px;height:340px;overflow:hidden;margin-top:10px;background:none;}
+.notice li{ width:100%; overflow: hidden; padding-bottom:17px;height:45px;}
+.notice li div{ overflow: hidden;}
+.date{ width: 55px; height: 44px;background:url(../images/icon06.jpg) no-repeat center;float:left; text-align: center;}
+.date p{ color:#fff; line-height: 20px; font-size:14px;}
+.date span{ color:#1852a5; font-family: Georgia;  font-size: 20px; line-height: 22px;}
+.mes{ line-height: 22px; margin-left:65px; height:44px; overflow:hidden;}
+.mes a{ font-size:14px; color:#333333;}
+
+.wraq_con02{ background-color:#ececec; padding-bottom:20px;}
+.links_W{ width:1120px; margin:0px auto; overflow:hidden;}
+.links{ margin:0px 10px;}
+.links_tit{ text-align:center; padding:20px 0px 10px;}
+.links_tit a{ color:#08376f; font-size:18px; font-weight:bolder;}
+.links ul{ width:790PX; margin:0PX auto;}
+.links ul li{ height:30px; line-height:30px; float:left; background:url(../images/link_li.jpg) no-repeat right center; padding-right:30px; margin-right:30px;}
+.links ul li a{ color:#444444; font-size:14px;}
+	
+@media screen and (max-width:1120px) {
+	.slide_tabs{ left:auto; right:10px; margin:0px;}
+	.con01a{ width:auto;}
+	.links_W{ width:auto;}
+}
+@media screen and (max-width:980px) {
+		.g-sd2{ margin-left:-315px; width:315px;}
+		.g-mn2c{ margin-right:350px; }
+}
+@media screen and (max-width:870px) {
+		.g-sd2{ margin:0px; width:100%;}
+		.g-mn2c{ margin:0px;}
+		.articleList01{ margin:0px 10px;}
+		.notice li{ width:50%; float:left;}
+		.mes{ margin-right:10px;}
+}
+
+@media screen and (max-width:800px) {
+	.rslides li{ height:335px;}
+	.rslides li .banner_img{ width:100%; float:none; background-size:800px 275px;}
+	.rslides li .banner_tit{ width:100%; float:none; position:absolute; bottom:0px; background:none #19559c; height:60px; line-height:60px; }
+	.rslides li .banner_tit span{ margin:0px; font-size:22px; padding-left:15px; height:60px; }
+	.links ul{ width:auto;} 
+	.links ul li{ padding-right:20px; margin-right:20px;}
+}
+
+@media screen and (max-width:640px) {
+	.rslides li{ height:280px;}
+	.rslides li .banner_img{ width:100%; float:none; background-size:640px 220px;}
+	.rslides li .banner_tit{ width:100%; float:none; position:absolute; bottom:0px; background:none #19559c; height:60px; line-height:60px; }
+	.rslides li .banner_tit span{ margin:0px; font-size:22px; padding-left:15px; height:60px; } 
+	.links ul li{ padding-right:12px; margin-right:12px;}
+}
+@media screen and (max-width:480px) {
+	.rslides li{ height:205px;}
+	.rslides li .banner_img{ width:100%; float:none; background-size:480px 165px;}
+	.rslides li .banner_tit{ width:100%; float:none; position:absolute; bottom:0px; background:none #19559c; height:40px; line-height:40px; }
+	.rslides li .banner_tit span{ margin:0px; font-size:16px; padding-left:15px; height:40px; } 
+	.slide_tabs{ bottom:15px;}
+	
+	.box_con01a ul li{ width:100%; float:none;}
+	.notice li{ width:100%; float:none;}
+	.box_con01a_img{ float:left; width:229px;}
+	.box_con01a_box{ margin-left:249px; height:149px;}
+	.box_con01a ul li{ height:170px;}
+	.links ul li{ margin:0px; padding:0px; width:33.3%; background:none;}
+}
+@media screen and (max-width:380px) {
+	.links ul li{ margin:0px; padding:0px; width:50%; background:none;}
+}
+@media screen and (max-width:360px) {
+	.box_con01a_img{ float:none; width:auto;}
+	.box_con01a_box{ margin:0px; height:auto;}
+	.box_con01a ul li{ height:auto;}
+	.box_con01a ul li .box_con01a_img{}
+}
+
+@media screen and (max-width:320px) {
+	.rslides li{ height:150px;}
+	.rslides li .banner_img{ width:100%; float:none; background-size:320px 110px;}
+	.rslides li .banner_tit{ width:100%; float:none; position:absolute; bottom:0px; background:none #19559c; height:40px; line-height:40px; }
+	.rslides li .banner_tit span{ margin:0px; font-size:14px; padding-left:15px; height:40px; } 
+	.slide_tabs{ bottom:15px; width:60px;}
+	.slide_tabs li{ width:7px; height:7px;}
+	
+	.box_con01a ul li{ width:100%; float:none;}
+	.notice li{ width:100%; float:none;}
+	.box_con01a_img{ background-size:100% auto;}
+}
+
